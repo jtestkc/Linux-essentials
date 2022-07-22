@@ -1,7 +1,7 @@
 # Linux-Swap
 
 
-Amount of installed RAM&nbsp;;;&nbsp;;&nbsp;Recommended swap space Recommended swap space if allowing for hibernation
+Amount of installed RAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recommended swap space Recommended swap space if allowing for hibernation
 
 <ol>2GB or less	                 Twice the installed RAM	       3 times the amount of RAM</Ol>
 <ol>2GB - 8GB	                   The same amount of RAM	             2 times the amount of RAM</Ol>
