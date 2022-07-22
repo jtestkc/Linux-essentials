@@ -18,7 +18,7 @@ Assigning swap as 'last effort' memory While the block devices hosting swap are 
 Virtual guests: for virtual guests, the same considerations as for physical systems apply. Also for these, using a bit of swap can influence the behaviour of a process requesting more and more memory, so the process gets slowed down first (leaving time for a sysadmin to manually fix the situation) before eventually also the swap is exhausted and the OOM killer terminates processes. If the memory written by the processes is not exceeding the available swap, the system will just experience a temporary slowdown.
 
 
-```<b><h1>Create a swap file on aws ec2 instance</h1></b>```
+<b><h1>Create a swap file on aws ec2 instance</h1></b>
 
 
 ```1.    Use the dd command to create a swap file on the root file system. In the command, bs is the block size and count is the number of blocks. The size of the swap file is the block size option multiplied by the count option in the dd command. Adjust these values to determine the desired swap file size.```
