@@ -4,7 +4,7 @@
 
 Note: A swap space of at least 100GB is recommended for systems with over 140 logical processors or over 3TB of RAM.
 
-The following items also influence the decision on how much swap space should be allocated:
+```The following items also influence the decision on how much swap space should be allocated:```
 
 Do specific application requirements exist? Applications may have been written with a specific amount of swap space in mind. If this is the case, the system should be set up with the amount of swap that is recommended by the application vendor.
 Do other requirements exist? Workstations and laptops may use hibernation functions that store the RAM contents in the swap area. In this case, the swap space would need to be equal to or greater than the amount of RAM installed in the system to enable hibernation.
