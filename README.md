@@ -3,6 +3,8 @@
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 
+
+
 <b>What is swap?</b>
 
 Swap space is the area on a hard disk. It is a part of your machine's Virtual Memory, which is a combination of accessible physical memory (RAM) and the swap space. Swap holds memory pages that are temporarily inactive. Swap space is used when your operating system decides that it needs physical memory for active processes and the amount of available (unused) physical memory is insufficient. When this happens, inactive pages from the physical memory are then moved into the swap space, freeing up that physical memory for other uses. Note that the access time for swap is slower, depending on the speed of the hard drive. Do not consider it to be a complete replacement for the physical memory. Swap space can be a dedicated swap partition (recommended), a swap file, or a combination of swap partitions and swap file(s).
@@ -65,4 +67,6 @@ The swappiness parameter controls the tendency of the kernel to move processes o
 swappiness can have a value of between 0 and 100
 swappiness=0 tells the kernel to avoid swapping processes out of physical memory for as long as possible
 swappiness=100 tells the kernel to aggressively swap processes out of physical memory and move them to swap cache
-The default setting in Ubuntu is swappiness=60. Reducing the default value of swappiness will probably improve overall performance for a typical Ubuntu desktop installation. A value of swappiness=10 is recommended
+The default setting in Ubuntu is swappiness=60. Reducing the default value of swappiness will probably improve overall performance for a typical Ubuntu desktop installation. A value of swappiness=10 is recommended.
+
+
