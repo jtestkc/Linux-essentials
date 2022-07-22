@@ -1,6 +1,7 @@
-# Linux-essentials
+# Linux-Swap
 
 
+(all versions)
 Amount of installed RAM	Recommended swap space	Recommended swap space if allowing for hibernation
 2GB or less	Twice the installed RAM	3 times the amount of RAM
 > 2GB - 8GB	The same amount of RAM	2 times the amount of RAM
