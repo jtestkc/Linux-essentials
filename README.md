@@ -1,5 +1,5 @@
 # Linux SWAP AND SWAPPINESS BY AJAY
- <a class="header-badge" target="_blank" href="www.linkedin.com/in/ajay-kc31">
+ <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/ajay-kc31">
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
 
