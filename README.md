@@ -21,30 +21,30 @@ Virtual guests: for virtual guests, the same considerations as for physical syst
 <b><h1>Create a swap file on aws ec2 instance</h1></b>
 
 
-```1.    Use the dd command to create a swap file on the root file system. In the command, bs is the block size and count is the number of blocks. The size of the swap file is the block size option multiplied by the count option in the dd command. Adjust these values to determine the desired swap file size.```
+1.    Use the dd command to create a swap file on the root file system. In the command, bs is the block size and count is the number of blocks. The size of the swap file is the block size option multiplied by the count option in the dd command. Adjust these values to determine the desired swap file size.
 
 The block size you specify should be less than the available memory on the instance or you receive a "memory exhausted" error.
 
 In this example dd command, the swap file is 4 GB (128 MB x 32):
 
-$ sudo dd if=/dev/zero of=/swapfile bs=128M count=32
+```$ sudo dd if=/dev/zero of=/swapfile bs=128M count=32```
 2.    Update the read and write permissions for the swap file:
 
-$ sudo chmod 600 /swapfile
+```$ sudo chmod 600 /swapfile```
 3.    Set up a Linux swap area:
 
-$ sudo mkswap /swapfile
+```$ sudo mkswap /swapfile```
 4.    Make the swap file available for immediate use by adding the swap file to swap space:
 
-$ sudo swapon /swapfile
+```$ sudo swapon /swapfile```
 5.    Verify that the procedure was successful:
 
-$ sudo swapon -s
+```$ sudo swapon -s```
 6.    Start the swap file at boot time by editing the /etc/fstab file.
 
 Open the file in the editor:
 
-$ sudo vi /etc/fstab
+```$ sudo vi /etc/fstab```
 Add the following new line at the end of the file, save the file, and then exit:
 
-/swapfile swap swap defaults 0 0
+```/swapfile swap swap defaults 0 0```
