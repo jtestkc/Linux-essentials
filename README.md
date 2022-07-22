@@ -1,4 +1,7 @@
-# Linux-Swap
+# Linux SWAP AND SWAPPINESS BY AJAY
+ <a class="header-badge" target="_blank" href="www.linkedin.com/in/ajay-kc31">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
 
 <b>What is swap?</b>
 
@@ -55,3 +58,11 @@ Open the file in the editor:
 Add the following new line at the end of the file, save the file, and then exit:
 
 ```/swapfile swap swap defaults 0 0```
+
+<h1>What is swappiness and how do I change it?</h1>
+The swappiness parameter controls the tendency of the kernel to move processes out of physical memory and onto the swap disk. Because disks are much slower than RAM, this can lead to slower response times for system and applications if processes are too aggressively moved out of memory.
+
+swappiness can have a value of between 0 and 100
+swappiness=0 tells the kernel to avoid swapping processes out of physical memory for as long as possible
+swappiness=100 tells the kernel to aggressively swap processes out of physical memory and move them to swap cache
+The default setting in Ubuntu is swappiness=60. Reducing the default value of swappiness will probably improve overall performance for a typical Ubuntu desktop installation. A value of swappiness=10 is recommended
