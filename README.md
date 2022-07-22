@@ -3,10 +3,10 @@
 
 Amount of installed RAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Recommended swap space Recommended swap space if allowing for hibernation
 
-<ol>2GB or less	                 Twice the installed RAM	       3 times the amount of RAM</Ol>
-<ol>2GB - 8GB	                   The same amount of RAM	             2 times the amount of RAM</Ol>
-<ol>8GB - 64GB	                 At least 4GB	                       1.5 times the amount of RAM</Ol>
-<ol>64GB or more	               At least 4GB	                       Hibernation not recommended</Ol>
+<ol>2GB or less&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Twice the installed RAM &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3 times the amount of RAM</Ol>
+<ol>2GB - 8GB	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The same amount of RAM	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   2 times the amount of RAM</Ol>
+<ol>8GB - 64GB&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  At least 4GB	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.5 times the amount of RAM</Ol>
+<ol>64GB or more&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	 At least 4GB	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Hibernation not recommended</Ol>
 Note: A swap space of at least 100GB is recommended for systems with over 140 logical processors or over 3TB of RAM.
 
 The following items also influence the decision on how much swap space should be allocated:
