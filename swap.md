@@ -69,4 +69,11 @@ swappiness=0 tells the kernel to avoid swapping processes out of physical memory
 swappiness=100 tells the kernel to aggressively swap processes out of physical memory and move them to swap cache
 The default setting in Ubuntu is swappiness=60. Reducing the default value of swappiness will probably improve overall performance for a typical Ubuntu desktop installation. A value of swappiness=10 is recommended.
 
+<h1>Disable and Remove a Swap File</h1>
+Disable the swap file from the running system and the delete it:
 
+```sudo swapoff /swapfile ```
+```sudo rm /swapfile```
+Remove the swap file details from fstab:
+
+```gksudo gedit /etc/fstab```
